@@ -1,0 +1,313 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\antde\\OneDrive\\Desktop\\BattleShip\\BattleShipApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EFD8F155-386B-AB34-735F-C583D8035039}|BattleShipApi\\BattleShipApi.csproj|c:\\users\\antde\\onedrive\\desktop\\battleship\\battleshipapi\\battleshipapi\\dtos\\placementrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFD8F155-386B-AB34-735F-C583D8035039}|BattleShipApi\\BattleShipApi.csproj|solutionrelative:battleshipapi\\dtos\\placementrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFD8F155-386B-AB34-735F-C583D8035039}|BattleShipApi\\BattleShipApi.csproj|c:\\users\\antde\\onedrive\\desktop\\battleship\\battleshipapi\\battleshipapi\\dtos\\matchstatusresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFD8F155-386B-AB34-735F-C583D8035039}|BattleShipApi\\BattleShipApi.csproj|solutionrelative:battleshipapi\\dtos\\matchstatusresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFD8F155-386B-AB34-735F-C583D8035039}|BattleShipApi\\BattleShipApi.csproj|c:\\users\\antde\\onedrive\\desktop\\battleship\\battleshipapi\\battleshipapi\\controllers\\movescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFD8F155-386B-AB34-735F-C583D8035039}|BattleShipApi\\BattleShipApi.csproj|solutionrelative:battleshipapi\\controllers\\movescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFD8F155-386B-AB34-735F-C583D8035039}|BattleShipApi\\BattleShipApi.csproj|c:\\users\\antde\\onedrive\\desktop\\battleship\\battleshipapi\\battleshipapi\\controllers\\placementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFD8F155-386B-AB34-735F-C583D8035039}|BattleShipApi\\BattleShipApi.csproj|solutionrelative:battleshipapi\\controllers\\placementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFD8F155-386B-AB34-735F-C583D8035039}|BattleShipApi\\BattleShipApi.csproj|c:\\users\\antde\\onedrive\\desktop\\battleship\\battleshipapi\\battleshipapi\\dtos\\creatematchresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFD8F155-386B-AB34-735F-C583D8035039}|BattleShipApi\\BattleShipApi.csproj|solutionrelative:battleshipapi\\dtos\\creatematchresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFD8F155-386B-AB34-735F-C583D8035039}|BattleShipApi\\BattleShipApi.csproj|c:\\users\\antde\\onedrive\\desktop\\battleship\\battleshipapi\\battleshipapi\\dtos\\joinmatchrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFD8F155-386B-AB34-735F-C583D8035039}|BattleShipApi\\BattleShipApi.csproj|solutionrelative:battleshipapi\\dtos\\joinmatchrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFD8F155-386B-AB34-735F-C583D8035039}|BattleShipApi\\BattleShipApi.csproj|c:\\users\\antde\\onedrive\\desktop\\battleship\\battleshipapi\\battleshipapi\\dtos\\joinmatchresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFD8F155-386B-AB34-735F-C583D8035039}|BattleShipApi\\BattleShipApi.csproj|solutionrelative:battleshipapi\\dtos\\joinmatchresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFD8F155-386B-AB34-735F-C583D8035039}|BattleShipApi\\BattleShipApi.csproj|c:\\users\\antde\\onedrive\\desktop\\battleship\\battleshipapi\\battleshipapi\\models\\ships.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFD8F155-386B-AB34-735F-C583D8035039}|BattleShipApi\\BattleShipApi.csproj|solutionrelative:battleshipapi\\models\\ships.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFD8F155-386B-AB34-735F-C583D8035039}|BattleShipApi\\BattleShipApi.csproj|c:\\users\\antde\\onedrive\\desktop\\battleship\\battleshipapi\\battleshipapi\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFD8F155-386B-AB34-735F-C583D8035039}|BattleShipApi\\BattleShipApi.csproj|solutionrelative:battleshipapi\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFD8F155-386B-AB34-735F-C583D8035039}|BattleShipApi\\BattleShipApi.csproj|c:\\users\\antde\\onedrive\\desktop\\battleship\\battleshipapi\\battleshipapi\\models\\match.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFD8F155-386B-AB34-735F-C583D8035039}|BattleShipApi\\BattleShipApi.csproj|solutionrelative:battleshipapi\\models\\match.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFD8F155-386B-AB34-735F-C583D8035039}|BattleShipApi\\BattleShipApi.csproj|c:\\users\\antde\\onedrive\\desktop\\battleship\\battleshipapi\\battleshipapi\\models\\moves.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFD8F155-386B-AB34-735F-C583D8035039}|BattleShipApi\\BattleShipApi.csproj|solutionrelative:battleshipapi\\models\\moves.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFD8F155-386B-AB34-735F-C583D8035039}|BattleShipApi\\BattleShipApi.csproj|c:\\users\\antde\\onedrive\\desktop\\battleship\\battleshipapi\\battleshipapi\\models\\shipstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFD8F155-386B-AB34-735F-C583D8035039}|BattleShipApi\\BattleShipApi.csproj|solutionrelative:battleshipapi\\models\\shipstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFD8F155-386B-AB34-735F-C583D8035039}|BattleShipApi\\BattleShipApi.csproj|c:\\users\\antde\\onedrive\\desktop\\battleship\\battleshipapi\\battleshipapi\\controllers\\matchescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFD8F155-386B-AB34-735F-C583D8035039}|BattleShipApi\\BattleShipApi.csproj|solutionrelative:battleshipapi\\controllers\\matchescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFD8F155-386B-AB34-735F-C583D8035039}|BattleShipApi\\BattleShipApi.csproj|c:\\users\\antde\\onedrive\\desktop\\battleship\\battleshipapi\\battleshipapi\\controllers\\battleshipcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFD8F155-386B-AB34-735F-C583D8035039}|BattleShipApi\\BattleShipApi.csproj|solutionrelative:battleshipapi\\controllers\\battleshipcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFD8F155-386B-AB34-735F-C583D8035039}|BattleShipApi\\BattleShipApi.csproj|c:\\users\\antde\\onedrive\\desktop\\battleship\\battleshipapi\\battleshipapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFD8F155-386B-AB34-735F-C583D8035039}|BattleShipApi\\BattleShipApi.csproj|solutionrelative:battleshipapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFD8F155-386B-AB34-735F-C583D8035039}|BattleShipApi\\BattleShipApi.csproj|c:\\users\\antde\\onedrive\\desktop\\battleship\\battleshipapi\\battleshipapi\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFD8F155-386B-AB34-735F-C583D8035039}|BattleShipApi\\BattleShipApi.csproj|solutionrelative:battleshipapi\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFD8F155-386B-AB34-735F-C583D8035039}|BattleShipApi\\BattleShipApi.csproj|c:\\users\\antde\\onedrive\\desktop\\battleship\\battleshipapi\\battleshipapi\\battleshipapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EFD8F155-386B-AB34-735F-C583D8035039}|BattleShipApi\\BattleShipApi.csproj|solutionrelative:battleshipapi\\battleshipapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlacementRequest.cs",
+              "DocumentMoniker": "C:\\Users\\antde\\OneDrive\\Desktop\\BattleShip\\BattleShipApi\\BattleShipApi\\Dtos\\PlacementRequest.cs",
+              "RelativeDocumentMoniker": "BattleShipApi\\Dtos\\PlacementRequest.cs",
+              "ToolTip": "C:\\Users\\antde\\OneDrive\\Desktop\\BattleShip\\BattleShipApi\\BattleShipApi\\Dtos\\PlacementRequest.cs",
+              "RelativeToolTip": "BattleShipApi\\Dtos\\PlacementRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T04:16:09.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlacementController.cs",
+              "DocumentMoniker": "C:\\Users\\antde\\OneDrive\\Desktop\\BattleShip\\BattleShipApi\\BattleShipApi\\Controllers\\PlacementController.cs",
+              "RelativeDocumentMoniker": "BattleShipApi\\Controllers\\PlacementController.cs",
+              "ToolTip": "C:\\Users\\antde\\OneDrive\\Desktop\\BattleShip\\BattleShipApi\\BattleShipApi\\Controllers\\PlacementController.cs",
+              "RelativeToolTip": "BattleShipApi\\Controllers\\PlacementController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T04:12:12.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MatchStatusResponse.cs",
+              "DocumentMoniker": "C:\\Users\\antde\\OneDrive\\Desktop\\BattleShip\\BattleShipApi\\BattleShipApi\\Dtos\\MatchStatusResponse.cs",
+              "RelativeDocumentMoniker": "BattleShipApi\\Dtos\\MatchStatusResponse.cs",
+              "ToolTip": "C:\\Users\\antde\\OneDrive\\Desktop\\BattleShip\\BattleShipApi\\BattleShipApi\\Dtos\\MatchStatusResponse.cs",
+              "RelativeToolTip": "BattleShipApi\\Dtos\\MatchStatusResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T04:06:16.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "JoinMatchResponse.cs",
+              "DocumentMoniker": "C:\\Users\\antde\\OneDrive\\Desktop\\BattleShip\\BattleShipApi\\BattleShipApi\\Dtos\\JoinMatchResponse.cs",
+              "RelativeDocumentMoniker": "BattleShipApi\\Dtos\\JoinMatchResponse.cs",
+              "ToolTip": "C:\\Users\\antde\\OneDrive\\Desktop\\BattleShip\\BattleShipApi\\BattleShipApi\\Dtos\\JoinMatchResponse.cs",
+              "RelativeToolTip": "BattleShipApi\\Dtos\\JoinMatchResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T04:15:48.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "JoinMatchRequest.cs",
+              "DocumentMoniker": "C:\\Users\\antde\\OneDrive\\Desktop\\BattleShip\\BattleShipApi\\BattleShipApi\\Dtos\\JoinMatchRequest.cs",
+              "RelativeDocumentMoniker": "BattleShipApi\\Dtos\\JoinMatchRequest.cs",
+              "ToolTip": "C:\\Users\\antde\\OneDrive\\Desktop\\BattleShip\\BattleShipApi\\BattleShipApi\\Dtos\\JoinMatchRequest.cs",
+              "RelativeToolTip": "BattleShipApi\\Dtos\\JoinMatchRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T04:15:31.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateMatchResponse.cs",
+              "DocumentMoniker": "C:\\Users\\antde\\OneDrive\\Desktop\\BattleShip\\BattleShipApi\\BattleShipApi\\Dtos\\CreateMatchResponse.cs",
+              "RelativeDocumentMoniker": "BattleShipApi\\Dtos\\CreateMatchResponse.cs",
+              "ToolTip": "C:\\Users\\antde\\OneDrive\\Desktop\\BattleShip\\BattleShipApi\\BattleShipApi\\Dtos\\CreateMatchResponse.cs",
+              "RelativeToolTip": "BattleShipApi\\Dtos\\CreateMatchResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T03:27:10.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MovesController.cs",
+              "DocumentMoniker": "C:\\Users\\antde\\OneDrive\\Desktop\\BattleShip\\BattleShipApi\\BattleShipApi\\Controllers\\MovesController.cs",
+              "RelativeDocumentMoniker": "BattleShipApi\\Controllers\\MovesController.cs",
+              "ToolTip": "C:\\Users\\antde\\OneDrive\\Desktop\\BattleShip\\BattleShipApi\\BattleShipApi\\Controllers\\MovesController.cs",
+              "RelativeToolTip": "BattleShipApi\\Controllers\\MovesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T04:12:32.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Ships.cs",
+              "DocumentMoniker": "C:\\Users\\antde\\OneDrive\\Desktop\\BattleShip\\BattleShipApi\\BattleShipApi\\Models\\Ships.cs",
+              "RelativeDocumentMoniker": "BattleShipApi\\Models\\Ships.cs",
+              "ToolTip": "C:\\Users\\antde\\OneDrive\\Desktop\\BattleShip\\BattleShipApi\\BattleShipApi\\Models\\Ships.cs",
+              "RelativeToolTip": "BattleShipApi\\Models\\Ships.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T02:06:24.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\antde\\OneDrive\\Desktop\\BattleShip\\BattleShipApi\\BattleShipApi\\Models\\Player.cs",
+              "RelativeDocumentMoniker": "BattleShipApi\\Models\\Player.cs",
+              "ToolTip": "C:\\Users\\antde\\OneDrive\\Desktop\\BattleShip\\BattleShipApi\\BattleShipApi\\Models\\Player.cs",
+              "RelativeToolTip": "BattleShipApi\\Models\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T01:44:21.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Moves.cs",
+              "DocumentMoniker": "C:\\Users\\antde\\OneDrive\\Desktop\\BattleShip\\BattleShipApi\\BattleShipApi\\Models\\Moves.cs",
+              "RelativeDocumentMoniker": "BattleShipApi\\Models\\Moves.cs",
+              "ToolTip": "C:\\Users\\antde\\OneDrive\\Desktop\\BattleShip\\BattleShipApi\\BattleShipApi\\Models\\Moves.cs",
+              "RelativeToolTip": "BattleShipApi\\Models\\Moves.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T02:09:13.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ShipStatus.cs",
+              "DocumentMoniker": "C:\\Users\\antde\\OneDrive\\Desktop\\BattleShip\\BattleShipApi\\BattleShipApi\\Models\\ShipStatus.cs",
+              "RelativeDocumentMoniker": "BattleShipApi\\Models\\ShipStatus.cs",
+              "ToolTip": "C:\\Users\\antde\\OneDrive\\Desktop\\BattleShip\\BattleShipApi\\BattleShipApi\\Models\\ShipStatus.cs",
+              "RelativeToolTip": "BattleShipApi\\Models\\ShipStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T02:11:14.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Match.cs",
+              "DocumentMoniker": "C:\\Users\\antde\\OneDrive\\Desktop\\BattleShip\\BattleShipApi\\BattleShipApi\\Models\\Match.cs",
+              "RelativeDocumentMoniker": "BattleShipApi\\Models\\Match.cs",
+              "ToolTip": "C:\\Users\\antde\\OneDrive\\Desktop\\BattleShip\\BattleShipApi\\BattleShipApi\\Models\\Match.cs",
+              "RelativeToolTip": "BattleShipApi\\Models\\Match.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T01:38:55.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MatchesController.cs",
+              "DocumentMoniker": "C:\\Users\\antde\\OneDrive\\Desktop\\BattleShip\\BattleShipApi\\BattleShipApi\\Controllers\\MatchesController.cs",
+              "RelativeDocumentMoniker": "BattleShipApi\\Controllers\\MatchesController.cs",
+              "ToolTip": "C:\\Users\\antde\\OneDrive\\Desktop\\BattleShip\\BattleShipApi\\BattleShipApi\\Controllers\\MatchesController.cs",
+              "RelativeToolTip": "BattleShipApi\\Controllers\\MatchesController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAACoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T03:07:31.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BattleShipApi.csproj",
+              "DocumentMoniker": "C:\\Users\\antde\\OneDrive\\Desktop\\BattleShip\\BattleShipApi\\BattleShipApi\\BattleShipApi.csproj",
+              "RelativeDocumentMoniker": "BattleShipApi\\BattleShipApi.csproj",
+              "ToolTip": "C:\\Users\\antde\\OneDrive\\Desktop\\BattleShip\\BattleShipApi\\BattleShipApi\\BattleShipApi.csproj",
+              "RelativeToolTip": "BattleShipApi\\BattleShipApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-04T01:34:04.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\antde\\OneDrive\\Desktop\\BattleShip\\BattleShipApi\\BattleShipApi\\Program.cs",
+              "RelativeDocumentMoniker": "BattleShipApi\\Program.cs",
+              "ToolTip": "C:\\Users\\antde\\OneDrive\\Desktop\\BattleShip\\BattleShipApi\\BattleShipApi\\Program.cs",
+              "RelativeToolTip": "BattleShipApi\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T02:08:56.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BattleShipController.cs",
+              "DocumentMoniker": "C:\\Users\\antde\\OneDrive\\Desktop\\BattleShip\\BattleShipApi\\BattleShipApi\\Controllers\\BattleShipController.cs",
+              "RelativeDocumentMoniker": "BattleShipApi\\Controllers\\BattleShipController.cs",
+              "ToolTip": "C:\\Users\\antde\\OneDrive\\Desktop\\BattleShip\\BattleShipApi\\BattleShipApi\\Controllers\\BattleShipController.cs",
+              "RelativeToolTip": "BattleShipApi\\Controllers\\BattleShipController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T02:35:02.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\antde\\OneDrive\\Desktop\\BattleShip\\BattleShipApi\\BattleShipApi\\Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "BattleShipApi\\Data\\DataContext.cs",
+              "ToolTip": "C:\\Users\\antde\\OneDrive\\Desktop\\BattleShip\\BattleShipApi\\BattleShipApi\\Data\\DataContext.cs",
+              "RelativeToolTip": "BattleShipApi\\Data\\DataContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T02:37:47.523Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
