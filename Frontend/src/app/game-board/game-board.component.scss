@@ -1,0 +1,22 @@
+.grid {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #000;
+  width: 400px; /* 10 cells * 40px */
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ccc;
+  background-color: lightblue;
+  cursor: pointer;
+}
+
+.cell.hit { background-color: red; }
+.cell.miss { background-color: white; }
+.cell.ship { background-color: gray; } /* For placing ships */
