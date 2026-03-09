@@ -1,9 +1,19 @@
 <header>
-  <nav>
-    <a routerLink="/">Lobby</a>
-    <a routerLink="/join-game/:MatchId">Save Game</a> // This is just a placeholder, you can replace it with the actual path for the saved game component
-    <a routerLink="/play-computer">Play vs Computer</a>
-  </nav>
+    <nav>
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">BATTLESHIP</a>
+            </li>
+            <li class="nav-item">
+                <a routerLink="/">Lobby</a>
+            </li>
+            <li class="nav-item">
+                <a routerLink="/join-game/">Save Game</a>
+            </li>
+        </ul>
+    </nav>
 </header>
+
+
 
 <router-outlet></router-outlet>
