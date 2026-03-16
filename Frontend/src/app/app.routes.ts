@@ -4,7 +4,5 @@ import { LobbyComponent } from './lobby/lobby.component';
 
 export const routes: Routes = [
     {path: '', component: LobbyComponent},
-    {path: 'join-game/:MatchId', component: GameBoardComponent},
-    {path: 'play-computer', component: GameBoardComponent}
-
+    {path: 'game-board/:MatchId/:playerId', component: GameBoardComponent}
 ];

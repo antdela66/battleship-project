@@ -1,22 +1,116 @@
-.grid {
-  display: flex;
-  flex-direction: column;
-  border: 2px solid #000;
-  width: 400px; /* 10 cells * 40px */
+.game-board-container {
+  background: linear-gradient(135deg, #c8d1e6, #002fff);
 }
 
-.row {
+.match-detail-card {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 20px;
+}
+
+.status-message{
+  color: red;
   display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 20px;
+ font-size: 20px;
+}
+
+.placement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.gameboards {
+  display: flex;
+  gap: 40px;
+  margin-top: 20px;
+  color: rgb(0, 0, 0);
+}
+
+.game-board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(10, 40px);
+  gap: 4px;
 }
 
 .cell {
   width: 40px;
   height: 40px;
-  border: 1px solid #ccc;
-  background-color: lightblue;
-  cursor: pointer;
+  border: 1px solid #333;
+  background: rgb(18, 58, 235);
+  color: black;
+  font-size: 10px;
+  padding: 0;
 }
 
-.cell.hit { background-color: red; }
-.cell.miss { background-color: white; }
-.cell.ship { background-color: gray; } /* For placing ships */
+.cell.empty {
+  background: rgb(18, 58, 235);
+}
+
+.cell.ship {
+  background: rgb(131, 142, 177);
+}
+
+.cell.unknown {
+  background: red;
+}
+
+.cell.hit {
+  background: rgb(255, 0, 0);
+}
+
+.cell.miss {
+  background: rgb(255, 255, 255);
+}
+
+.opponent-cell {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #333;
+  background: rgb(250, 0, 0);
+  color: black;
+  font-size: 10px;
+  padding: 0;
+}
+
+.opponent-cell.hit {
+  background: yellow;
+}
+
+.opponent-cell.miss {
+  background: white;
+}
+
+.opponent-cell.sunk {
+  background: black;
+  box-shadow: 0 0 20px rgb(255, 230, 2);
+}
+
+.opponent-game-board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+option:disabled {
+  background: red;
+  color: white;
+}
+
+option {
+  background: green;
+  color: white;
+}

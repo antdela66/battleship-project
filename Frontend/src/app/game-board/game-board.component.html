@@ -1,13 +1,93 @@
-<div class="battleship-container">
-  <div class="grid">
-    <!-- Loop through 10 rows -->
-    <div *ngFor="let row of [].constructor(10); let i = index" class="row">
-      <!-- Loop through 10 columns per row -->
-      <div *ngFor="let col of [].constructor(10); let j = index" 
-           class="cell" 
-           (click)="fireShot(i, j)"
-           [ngClass]="getCellClass(i, j)">
+<div class = "game-board-container">
+
+  <div class = "match-detail-card">
+  <div class="card" style="width: 18rem;">
+  <div class="card-header" *ngIf="matchState">
+    Match Code: {{ matchState.matchCode }}
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">Status: {{ matchState?.status }}</li>
+    <li class="list-group-item">Current Turn: Player {{ matchState?.currentTurn }}</li>
+    <li class="list-group-item">You: {{matchState?.playerName }}</li>
+    <li class="list-group-item">Opponent: {{ matchState?.opponentName }}</li>
+    <li class="list-group-item" *ngIf="matchState?.winner">Winner: {{ matchState?.winner }}</li>
+  </ul>
+</div>
+</div>
+
+<div class="status-message">
+  <div class="error-message" *ngIf="errorMessage">
+    {{ errorMessage }}
+  </div>
+
+  <div class="action-message" *ngIf="actionMessage">
+    {{ actionMessage }}
+  </div>
+</div>
+
+<div class="placement" *ngIf="matchState?.status === 'PlacingShips'">
+  <h3> Place Your Ships </h3>
+  <label for="shipType">Select Ship Type: </label>
+  <select id="shipType" [(ngModel)]="selectedShip">
+    <option 
+    *ngFor="let ship of shipTypes" 
+    [value]="ship"
+    [disabled] = "placedShips.includes(ship)">
+      {{ ship }}
+    </option>
+  </select>
+
+  <label for="orientation">Select Orientation: </label>
+  <select id="orientation" [(ngModel)]="selectedOrientation">
+    <option *ngFor="let orientation of shipOrientations" [value]="orientation">
+      {{ orientation }}
+    </option>
+  </select>
+<br><br>
+  <button (click)="playerReady()" [disabled]="matchState?.playerIsReady">
+    READY
+  </button>
+</div>
+
+<div class="gameboards" *ngIf="matchState">
+    <div class="game-board">
+
+      <h2>Your Status: 
+        <span [ngClass]= "matchState.playerIsReady ? 'ready' : 'not-ready'">
+          {{ matchState.playerIsReady ? 'Ready' : 'Not Ready' }}
+        </span>
+      </h2>
+
+      <h3>Your Board</h3>
+      <div class = "grid">
+        <button
+          class="cell"
+          *ngFor="let cell of yourBoard()"
+          [ngClass]="getCellStatus(cell.x, cell.y)"
+          (click)="placeShip(cell.x, cell.y)">
+          {{ cell.status }}
+        </button>
+      </div>
+    </div>
+
+    <div class="opponent-game-board">
+      <h2>Opponent Status: 
+        <span [ngClass]= "matchState.opponentIsReady ? 'ready' : 'not-ready'">
+          {{ matchState.opponentIsReady ? 'Ready' : 'Not Ready' }}
+        </span>
+      </h2>
+      <h3>Opponent's Board</h3>
+      <div class = "grid">
+        <button
+          class="opponent-cell"
+          *ngFor="let cell of opponentBoard()"
+          [ngClass]="cell.status.toLowerCase()"
+          [disabled]="matchState.currentTurn !== matchState.playerNumber.toString() || cell.status !== 'Unknown'"
+          (click)="fireShot(cell.x, cell.y)">
+          {{ cell.status }}
+        </button>
       </div>
     </div>
   </div>
 </div>
+

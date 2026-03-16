@@ -1,19 +1,17 @@
-<header>
-    <nav>
-        <ul class="nav justify-content-center">
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">BATTLESHIP</a>
-            </li>
-            <li class="nav-item">
-                <a routerLink="/">Lobby</a>
-            </li>
-            <li class="nav-item">
-                <a routerLink="/join-game/">Save Game</a>
-            </li>
-        </ul>
-    </nav>
+<header class="game-header">
+
+  <div class="header-left"></div>
+
+  <div class="header-title">
+    Battleship
+  </div>
+
+  <div class="header-right">
+    <button routerLink="/" class="lobby-btn">
+      Lobby
+    </button>
+  </div>
+
 </header>
-
-
 
 <router-outlet></router-outlet>
