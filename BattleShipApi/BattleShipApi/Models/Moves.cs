@@ -5,13 +5,13 @@ namespace BattleShipApi.Models
     public class Moves
     {
         [Key]
-        public int MovesId { get; set; }
+        public Guid MovesId { get; set; }
 
-        public int MatchId { get; set; }
+        public Guid MatchId { get; set; }
 
-        public int AttackerId { get; set; }
+        public Guid AttackerId { get; set; }
 
-        public int DefenderId { get; set; }
+        public Guid DefenderId { get; set; }
 
         public int X { get; set; }
 

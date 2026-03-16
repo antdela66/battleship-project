@@ -158,4 +158,5 @@ C:\Users\antde\OneDrive\Desktop\BattleShip\BattleShipApi\BattleShipApi\obj\Debug
 C:\Users\antde\OneDrive\Desktop\BattleShip\BattleShipApi\BattleShipApi\obj\Debug\net10.0\BattleShipApi.pdb
 C:\Users\antde\OneDrive\Desktop\BattleShip\BattleShipApi\BattleShipApi\obj\Debug\net10.0\BattleShipApi.genruntimeconfig.cache
 C:\Users\antde\OneDrive\Desktop\BattleShip\BattleShipApi\BattleShipApi\obj\Debug\net10.0\ref\BattleShipApi.dll
+C:\Users\antde\OneDrive\Desktop\BattleShip\BattleShipApi\BattleShipApi\obj\Debug\net10.0\BattleShipApi.sourcelink.json
 C:\Users\antde\OneDrive\Desktop\BattleShip\BattleShipApi\BattleShipApi\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt

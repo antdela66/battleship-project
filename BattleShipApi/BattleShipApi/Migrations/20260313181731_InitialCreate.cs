@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace BattleShipApi.Migrations
 {
     /// <inheritdoc />
-    public partial class IntialCreate : Migration
+    public partial class InitialCreate : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -33,11 +33,10 @@ namespace BattleShipApi.Migrations
                 name: "Moves",
                 columns: table => new
                 {
-                    MovesId = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    MatchId = table.Column<int>(type: "int", nullable: false),
-                    AttackerId = table.Column<int>(type: "int", nullable: false),
-                    DefenderId = table.Column<int>(type: "int", nullable: false),
+                    MovesId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    MatchId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    AttackerId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    DefenderId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     X = table.Column<int>(type: "int", nullable: false),
                     Y = table.Column<int>(type: "int", nullable: false),
                     Result = table.Column<string>(type: "nvarchar(max)", nullable: false),
@@ -52,9 +51,9 @@ namespace BattleShipApi.Migrations
                 name: "Ships",
                 columns: table => new
                 {
-                    ShipsId = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
+                    ShipsId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     PlayerId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    ShipType = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Size = table.Column<int>(type: "int", nullable: false),
                     Orientation = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     StartX = table.Column<int>(type: "int", nullable: false),
@@ -71,7 +70,7 @@ namespace BattleShipApi.Migrations
                 {
                     ShipCellId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    ShipId = table.Column<int>(type: "int", nullable: false),
+                    ShipId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     X = table.Column<int>(type: "int", nullable: false),
                     Y = table.Column<int>(type: "int", nullable: false),
                     IsHit = table.Column<bool>(type: "bit", nullable: false)

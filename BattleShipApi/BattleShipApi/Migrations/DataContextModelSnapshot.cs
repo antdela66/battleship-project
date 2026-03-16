@@ -59,20 +59,18 @@ namespace BattleShipApi.Migrations
 
             modelBuilder.Entity("BattleShipApi.Models.Moves", b =>
                 {
-                    b.Property<int>("MovesId")
+                    b.Property<Guid>("MovesId")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("uniqueidentifier");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("MovesId"));
+                    b.Property<Guid>("AttackerId")
+                        .HasColumnType("uniqueidentifier");
 
-                    b.Property<int>("AttackerId")
-                        .HasColumnType("int");
+                    b.Property<Guid>("DefenderId")
+                        .HasColumnType("uniqueidentifier");
 
-                    b.Property<int>("DefenderId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("MatchId")
-                        .HasColumnType("int");
+                    b.Property<Guid>("MatchId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<DateTime>("MoveTime")
                         .HasColumnType("datetime2");
@@ -135,8 +133,8 @@ namespace BattleShipApi.Migrations
                     b.Property<bool>("IsHit")
                         .HasColumnType("bit");
 
-                    b.Property<int>("ShipId")
-                        .HasColumnType("int");
+                    b.Property<Guid>("ShipId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<int>("X")
                         .HasColumnType("int");
@@ -151,11 +149,9 @@ namespace BattleShipApi.Migrations
 
             modelBuilder.Entity("BattleShipApi.Models.Ships", b =>
                 {
-                    b.Property<int>("ShipsId")
+                    b.Property<Guid>("ShipsId")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ShipsId"));
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Orientation")
                         .IsRequired()
@@ -163,6 +159,10 @@ namespace BattleShipApi.Migrations
 
                     b.Property<Guid>("PlayerId")
                         .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("ShipType")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("Size")
                         .HasColumnType("int");

@@ -19,9 +19,6 @@ export class LobbyComponent {
   private router = inject(Router);
   
   onCreateGame(): void{
-
-    this.router.navigate(['/join-game']);
-
     this.matchService.CreateMatch().subscribe({
       next: (response) => {
         this.createdMatch = response;

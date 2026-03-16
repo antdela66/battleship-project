@@ -7,7 +7,7 @@ namespace BattleShipApi.Models
         [Key]
         public int ShipCellId { get; set; }
 
-        public int ShipId { get; set; }
+        public Guid ShipId { get; set; }
 
         public int X { get; set; }
 

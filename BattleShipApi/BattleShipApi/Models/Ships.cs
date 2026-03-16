@@ -5,11 +5,11 @@ namespace BattleShipApi.Models
     public class Ships
     {
         [Key]
-        public int ShipsId { get; set; }
+        public Guid ShipsId { get; set; }
 
         public Guid PlayerId { get; set; }
 
-        object ShipType { get; set; } = new object();
+        public string ShipType { get; set; } = string.Empty;
 
         public int Size { get; set; }
 
